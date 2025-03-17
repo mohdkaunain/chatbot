@@ -1,8 +1,8 @@
 def simple_chatbot(user_input):
-    # Convert user input to lowercase for case-insensitive matching
+
     user_input = user_input.lower()
 
-    # Define some predefined rules and responses
+   
     if "hello" in user_input or "hi" in user_input:
         return "Hi there! How can I help you today?"
     elif "how are you" in user_input:
@@ -12,7 +12,7 @@ def simple_chatbot(user_input):
     else:
         return "I'm sorry, I didn't understand that. Can you please rephrase?"
 
-# Main function to run the chatbot
+
 def main():
     print("Welcome to the Simple Chatbot!")
     print("Type 'bye' to exit.")
